@@ -1,0 +1,35 @@
+{
+  "name": "cise_ass1a_worksheet3",
+  "version": "1.0.0",
+  "description": "mern app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "cd my-app && npm run build",
+    "install-my-app": "cd my-app && npm install",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run install-my-app && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catherineibarra/cise_ass1a_worksheet3.git"
+  },
+  "author": "Cathy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catherineibarra/cise_ass1a_worksheet3/issues"
+  },
+  "homepage": "https://github.com/catherineibarra/cise_ass1a_worksheet3#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
